@@ -1,0 +1,24 @@
+{
+  "name": "total-swimming",
+  "version": "1.0.0",
+  "description": "Swimming Manager",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "cd client/ && npm && npm run build && cd ../.. && node server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Moshe Gotam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7"
+  }
+}

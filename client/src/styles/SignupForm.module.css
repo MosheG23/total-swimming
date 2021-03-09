@@ -1,0 +1,8 @@
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+    align-content: center;
+    -webkit-box-shadow: 1px 1px 15px 1px #a7a7a7;
+    box-shadow: 1px 1px 15px 1px #a7a7a7;
+    padding: 2rem 1rem;
+}
